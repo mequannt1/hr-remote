@@ -6,6 +6,7 @@ const federatedConfig:any = {
   filename: "static/chunks/remoteEntry.js",
   exposes: {
     "./Home": "./src/components/Home.tsx",
+    "./HRDashboard": "./src/components/HrDashboard.tsx",
   },
   shared: {},
 };
